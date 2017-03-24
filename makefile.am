@@ -1,0 +1,3 @@
+# Not GNU file setup, no AUTHORS, NEWS, README, etc
+AUTOMAKE_OPTIONS = foreign
+SUBDIRS = my_inc src

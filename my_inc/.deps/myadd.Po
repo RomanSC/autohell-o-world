@@ -1,0 +1,5 @@
+myadd.o: myadd.cpp /usr/include/stdc-predef.h myadd.h
+
+/usr/include/stdc-predef.h:
+
+myadd.h:

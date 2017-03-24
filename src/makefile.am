@@ -1,0 +1,11 @@
+# Binary is produced here
+# They will be installed into the default directory for bin
+bin_PROGRAMS = main
+main_SOURCES = main.cpp
+
+noinst_LIBRARIES = libhelper.a
+libhelper_a_SOURCES = helper.cpp
+
+# noinsta_ makes sure this library is not installed on the users computer
+
+main_LDADD = libhelper.a ../my_inc/libmyadd.a
